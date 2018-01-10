@@ -62,3 +62,24 @@ print("19.0 - The variables in your function are not connected to the veriables 
 
 print("""20.0 - += is a shorthand method to say this variable equals this variable plus a value\r
 for total. Example: 'total = total + a' can be shortened to 'total += a' """)
+
+print("23.0 New stuff in Strings, Bytes, and Char Encoding:")
+print("23.1 - DBES = Decode Bytes, Encode Strings")
+print("""23.2 - Stuff I've not seen yet
+\r\tsys.argv =
+\r\tif: = an if-statement tets the truth of a variable and based on that truth run another piece of code
+\r\tstrip() = strips the \\n from the beginning of a line - removes whitespace from beginning/end, spaces included
+\r\tencode() = converts raw bytes into strings
+\r\tdecode() = converts strings into raw bytes
+\r\t'maximum recursion depth exceeded' - if statement is removed and the loop keeps going and going until memory is exceeded
+""")
+
+print("24.0 - More Practice:")
+print("24.1 - The value of a variable can start/end with a triple quote like in a print function, it just doesn't need parenthesis on either end")
+
+print("""25.0 - Even more practice:
+\n25.1 - .pop(i) = return an item from a list in i position
+\n25.2 - .split(' ') = splits strings on a character, in this case a spaces
+\n25.3- ''' ''' within a function and not after print( means it is documentation comments and appears in the helpful
+\n25.4- Help can be called within python with 'help' and from there call help for the module with the name of the .py file
+""")

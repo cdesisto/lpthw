@@ -9,5 +9,6 @@ print("How much do you weigh?", end= ' ')
 weight = input()
 
 # age, height and weight are all set variables now, but we didnt stipulate as what kind so they are all strings by default
+# to force the program to only accept numbers use int(input())
 # use f string to call the variables and insert into this formatted string
 print(f"So, you're {age} old, {height} tall and {weight} heavy.")
