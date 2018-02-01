@@ -83,3 +83,34 @@ print("""25.0 - Even more practice:
 \n25.3- ''' ''' within a function and not after print( means it is documentation comments and appears in the helpful
 \n25.4- Help can be called within python with 'help' and from there call help for the module with the name of the .py file
 """)
+
+print("""32.0 - Loops & lists
+32.1 - Range - 2nd number is not inclusive --> range(0,6) is 0, 1, 2, 3, 4, 5.
+32.2 - Ranges need the following commands, start value, stop value and step. E.g.:\n\t>>> list(range(0, 30, 5))\n\t[0, 5, 10, 15, 20, 25]
+""")
+
+print(""" 33.0 - While Loops
+33.1 - Use While loops sparingly - usually a for loop is better
+33.2 - Review the statement that it can become false at some point
+33.3 - When in doubt, print your test variable at the top nad bottom of the while-loop to see what it's doing.
+""")
+
+print(""" 35.0 - Branches & functions
+35.1 - exit(0) allows you to abort a program without error. exit(1) is exiting with an error
+""")
+
+print("""36.0 - Designing and Debugging
+\n**Rules for if-statements**
+36.1 - Every if-statement must have an else.
+36.2 - If this else should hever run because it doesn't make sense,\nthen you must use a die function in the else that points out an error\nmessage and dies, just like we did in the last exercise. This will find many errors.
+36.3 - Never nest if-statements more than two deep and always try to do them one deep
+36.4 - Treat if-statements like paragraphs, where each if-elif-else grouping\nis like a set of sentences. Put blank lines before and after
+36.5 - Your Boolean tests should be stimple. If they are complex, move their calculations to variables earlier in your function and use a good name for the variable.
+\n**Rules for Loops**
+36.6 - Use a while-loop only to loop forever, and that means probably never.
+36.7 - Use a for-loop for all other kinds of looping, especially if ther is a fixed or limited number of things to loop over.
+\n**Tips for Debugging**
+36.8 - Do not use a 'debugger.' Lots of useless information
+36.9 - The best way to debug a program is to print variables and values throughout
+36.10 - Make sure parts of your programs work as you work on them. Code a little, run a little fix a little.
+""")

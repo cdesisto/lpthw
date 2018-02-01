@@ -18,6 +18,7 @@ script, filename = argv
 # filename was mispelled
 txt = open(filename)
 
+# need a f for frstring
 print("Here's your file {filename}:")
 # txt was mispelled
 print(txt.read())
@@ -32,7 +33,7 @@ txt_again = open(file_again)
 print(txt_again.read())
 
 # using the apostrophe means there should be a double quote or escape the sinlge quote
-print("Let's practice everything.)
+print("Let's practice everything.")
 # I'm guessing Zed things there should be a new line and tab here, so I'll do that
 print('You\'d need to know \'bout escapes \n\twith \\ that do \\n newlines and \\t tabs.')
 
@@ -45,9 +46,10 @@ and requires an explanation
 \n\t\twhere there is none.
 """
 
-print("--------------)
+# need a double quote after print
+print("--------------")
 print(poem)
-# need a double quote after print(
+# need a double quote after print
 print("--------------")
 
 # final number should be 6 to make the equation equal 5
@@ -64,6 +66,7 @@ def secret_formula(started):
     return jelly_beans, jars, crates
 
 ### I think this should be started, not start_point...or does start_point need to be in the function?
+# start_point = 10000
 start_point = 10000
 # left crates off the list
 beans, jars, crates = secret_formula(start_point)
@@ -76,38 +79,45 @@ print(f"We'd have {beans} beans, {jars} jars, and {crates} crates.")
 start_point = start_point / 10
 
 print("We can also do that this way:")
-formula = secret_formula(startpoint)
+# startpoint above has an underscore
+formula = secret_formula(start_point)
 # this is an easy way to apply a list to a format string
 print("We'd have {} beans, {} jars, and {} crates.".format(*formula))
 
 
 
 people = 20
-cates = 30
+# should be cats, not cates
+cats = 30
 dogs = 15
 
 
 if people < cats:
-    print "Too many cats! The world is doomed!"
+# definitel need quotes around what should be printed
+    print("Too many cats! The world is doomed!")
 
-if people < cats:
+# same statement as above, changing from < to >
+if people > cats:
     print("Not many cats! The world is saved!")
 
 if people < dogs:
     print("The world is drooled on!")
 
-if people > dogs
+# needs colon at the end of function
+if people > dogs:
     print("The world is dry!")
 
-
+# trying to add 5 to the previous value of dogs?
 dogs += 5
 
 if people >= dogs:
     print("People are greater than or equal to dogs.")
 
-if people <= dogs
-    print("People are less than or equal to dogs.)
+# needs colon at end of function
+if people <= dogs:
+# needs a quote at the end of the print string
+    print("People are less than or equal to dogs.")
 
-
-if people = dogs:
+# double equals, not single for testing logic
+if people == dogs:
     print("People are dogs.")
