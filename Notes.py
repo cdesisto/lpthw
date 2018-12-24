@@ -114,3 +114,21 @@ print("""36.0 - Designing and Debugging
 36.9 - The best way to debug a program is to print variables and values throughout
 36.10 - Make sure parts of your programs work as you work on them. Code a little, run a little fix a little.
 """)
+
+print("""38.0 - Lists
+38.1 - When to use lists
+\t1. If you need to maintain order. Remember, this is listed order, not sorted order. Lists do not sort for you.
+\t2. If you need to access the contents randomly by a number. Remember, this is using cardinal numbers starting at 0.
+\t3. If you need to go through the contents linerly (first to last). Remember, that's what for-loops are for.
+""")
+
+print(""" 39.0 - Dictionaries
+\t1. A list is for an ordered list of items, a dictionary is for matching items. It's aka a lookup table)
+\t2. Use lists when order matters, for a dictionary if there is a dupe key, the last occurence is requested
+\t3. You can add individual key/value entries, delete individual entries, clear or delete the entire dictionaryself.
+""")
+
+print(""" 40.0 Modules
+\t1. A module is a specialized dictionary that can store python code so you can access with the '.' operator.
+\t2. A Class is a grouping of functions and data and place them in a container you can access with the '.' operator.
+""")
