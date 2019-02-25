@@ -123,12 +123,20 @@ print("""38.0 - Lists
 """)
 
 print(""" 39.0 - Dictionaries
-\t1. A list is for an ordered list of items, a dictionary is for matching items. It's aka a lookup table)
-\t2. Use lists when order matters, for a dictionary if there is a dupe key, the last occurence is requested
-\t3. You can add individual key/value entries, delete individual entries, clear or delete the entire dictionaryself.
+39.1 - A list is for an ordered list of items, a dictionary is for matching items. It's aka a lookup table)
+39.2 - Use lists when order matters, for a dictionary if there is a dupe key, the last occurence is requested
+39.3 - You can add individual key/value entries, delete individual entries, clear or delete the entire dictionaryself.
 """)
 
-print(""" 40.0 Modules
-\t1. A module is a specialized dictionary that can store python code so you can access with the '.' operator.
-\t2. A Class is a grouping of functions and data and place them in a container you can access with the '.' operator.
+print(""" 40.0 - Modules
+40.1 - A module is a specialized dictionary that can store python code so you can access with the '.' operator.
+40.2 - A Class is a grouping of functions and data and place them in a container you can access with the '.' operator.
+""")
+
+print(""" 42.0 - Has-a, Is-a, Objets, and Classes
+42.1 - ""None"" is a built-in constant to represent the absence of a value
+""")
+
+print(""" 44.0 - Inheritance vs Composition
+44.1 - the use of self is an empty block, it inherits all behavior from parent
 """)
